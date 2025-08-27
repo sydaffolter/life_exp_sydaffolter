@@ -1,0 +1,8 @@
+---
+title: "Examine Life Expectancy"
+editor: visual
+date: today
+format: html
+---
+
+library(tidyverse)
