@@ -5,6 +5,8 @@ date: today
 format: html
 ---
 
+The following code is first loading the tidyverse package, then loading the gapminder dataframe with the line 'gapminder::gapminder_unfiltered'. Next, the code groups the life expectancy by year (using group_by()), and uses filter to find the country with the maximum life expectancy (using filter()). Using ungroup() and select(), the code separates and selects this information and saves it into a dataframe we have named sumdat by using arrange().
+
 ```{r}
 library(tidyverse)
 gapminder::gapminder_unfiltered  |> 
